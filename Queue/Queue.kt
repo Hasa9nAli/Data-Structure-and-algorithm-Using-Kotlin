@@ -6,7 +6,7 @@ class Queue{
     fun dequeue(){
        	when(queue.size){
              0 -> println("the queue is empty")
-			else -> queue.removeAt(queue.size - 1)
+	     else -> queue.removeAt(queue.size - 1)
         }
     }
     fun printQueue(){
